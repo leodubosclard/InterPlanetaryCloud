@@ -2,6 +2,9 @@
   "name": "ipc-ts",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@babel/core": "^7.22.5",
     "@chakra-ui/icons": "^2.0.19",
@@ -20,8 +23,8 @@
     "framer-motion": "^10.12.17",
     "git-clone": "^0.2.0",
     "js-file-download": "^0.4.12",
-    "next": "^12.3.4",
-    "next-auth": "4.10.3",
+    "next": "^14.2.18",
+    "next-auth": "^4.24.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
@@ -38,27 +41,19 @@
     "lint:fix": "next lint --fix"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^12.3.4",
+    "@next/eslint-plugin-next": "^14.2.18",
     "@types/crypto-js": "^4.1.1",
     "@types/git-clone": "^0.2.0",
-    "@types/node": "^16.18.31",
+    "@types/node": "^20.14.0",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
-    "cypress": "^11.2.0",
+    "cypress": "^13.15.0",
     "cypress-file-upload": "^5.0.8",
     "eslint": "^8.43.0",
     "eslint-config-airbnb": "^19.0.4",
